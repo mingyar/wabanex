@@ -18,7 +18,6 @@ defmodule Wabanex.Exercise do
     belongs_to :training, Training
 
     timestamps()
-
   end
 
   def changeset(exercise, params) do

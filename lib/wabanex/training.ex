@@ -17,7 +17,6 @@ defmodule Wabanex.Training do
     has_many :exercises, Exercise
 
     timestamps()
-
   end
 
   def changeset(params) do
