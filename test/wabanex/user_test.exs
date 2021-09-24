@@ -25,8 +25,8 @@ defmodule Wabanex.UserTest do
         name: ["should be at least 2 character(s)"],
         password: ["can't be blank"]
       }
-#THERES MORE CHANGES HERE: https://github.com/rocketseat-education/nlw-06-elixir/commit/0728ca485b06969e6a4607b1d20de9fd7f475acc
       assert errors_on(response) == expected_response
     end
   end
 end
+#THERES MORE CHANGES HERE: https://github.com/rocketseat-education/nlw-06-elixir/commit/0728ca485b06969e6a4607b1d20de9fd7f475acc
